@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="addTabindex()">
+
+    <h1>Simple Image Gallery</h1>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <img class="preview" 
+         alt="A winding road through a green, mountainous landscape under a cloudy sky." 
+         src="https://images.pexels.com/photos/4210850/pexels-photo-4210850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+         onmouseover="upDate(this)" 
+         onmouseout="undo()"
+         onfocus="upDate(this)"
+         onblur="undo()">
+
+    <img class="preview" 
+         alt="A close-up of a vibrant orange and yellow sunflower with a dark center." 
+         src="https://images.pexels.com/photos/418930/pexels-photo-418930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+         onmouseover="upDate(this)" 
+         onmouseout="undo()"
+         onfocus="upDate(this)"
+         onblur="undo()">
+
+    <img class="preview" 
+         alt="A majestic lion with a full mane looking directly at the camera." 
+         src="https://images.pexels.com/photos/2220337/pexels-photo-2220337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+         onmouseover="upDate(this)" 
+         onmouseout="undo()"
+         onfocus="upDate(this)"
+         onblur="undo()">
+
+    <img class="preview" 
+         alt="A modern city skyline at night with illuminated buildings reflecting in the water." 
+         src="https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+         onmouseover="upDate(this)" 
+         onmouseout="undo()"
+         onfocus="upDate(this)"
+         onblur="undo()">
+
+    <img class="preview" 
+         alt="A delicious-looking pizza with pepperoni, basil, and cheese on a wooden board." 
+         src="https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+         onmouseover="upDate(this)" 
+         onmouseout="undo()"
+         onfocus="upDate(this)"
+         onblur="undo()">
+
+    <img class="preview" 
+         alt="An astronaut in a spacesuit floating in the vast darkness of outer space." 
+         src="https://images.pexels.com/photos/2159/flight-sky-earth-space.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+         onmouseover="upDate(this)" 
+         onmouseout="undo()"
+         onfocus="upDate(this)"
+         onblur="undo()">
+
+    <script src="script.js"></script>
+
+</body>
+</html>

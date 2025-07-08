@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+#image {
+    width: 550px;
+    height: 350px;
+    margin: 20px auto;
+    border: 5px solid #666;
+    background-color: #333;
+    color: #fff;
+    
+    /* Style for the initial text */
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+    /* Properties for the background image */
+    background-image: url(''); /* Initially empty */
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+}
+
+.preview {
+    width: 150px;
+    margin: 10px;
+    border: 3px solid #ccc;
+    cursor: pointer;
+    transition: border-color .3s;
+}
+
+.preview:hover {
+    border-color: #333;
+}
